@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**EU regulatory compliance for AI-powered development tools** — classify AI systems, check obligations, and get article-level citations across 240+ articles and 3 major EU regulations.
+**Regulatory compliance for AI-powered development tools** — classify AI systems, check obligations, and get article-level citations across 240+ articles and 3 major regulations.
 
 [Full Documentation](https://docs.gibs.dev) · [Get API Key](https://gibs.dev) · [API Reference](https://docs.gibs.dev/api-reference)
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-Gibs MCP Server connects your AI development environment directly to a compliance knowledge base covering:
+Gibs MCP Server connects your AI development environment directly to a regulatory compliance knowledge base. Currently covering:
 
 | Regulation | Scope | Articles |
 |---|---|---|
@@ -56,7 +56,7 @@ export GIBS_API_KEY=your_api_key_here
 
 ### `classify_ai_system`
 
-Classify an AI system under EU AI Act risk levels (unacceptable, high-risk, limited, minimal) with full legal reasoning.
+Classify an AI system under AI Act risk levels (unacceptable, high-risk, limited, minimal) with full legal reasoning.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
@@ -80,7 +80,7 @@ Classify an AI system under EU AI Act risk levels (unacceptable, high-risk, limi
 
 ### `check_compliance`
 
-Ask any EU regulatory compliance question and get a structured answer with article-level citations.
+Ask any regulatory compliance question and get a structured answer with article-level citations.
 
 | Parameter | Type | Required | Description |
 |---|---|---|---|
@@ -215,4 +215,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-Built by [Gibbr AB](https://gibs.dev) — making EU compliance accessible for developers.
+Built by [Gibbr AB](https://gibs.dev) — making regulatory compliance accessible for developers.
